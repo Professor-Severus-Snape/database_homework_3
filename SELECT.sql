@@ -21,5 +21,4 @@ WHERE singer_name NOT LIKE('% %');
 
 -- название треков, которые содержат слова 'мой' или 'my':
 SELECT track_name FROM Tracks
-WHERE track_name LIKE '%Мой%' OR track_name LIKE '%мой%'
-	OR track_name LIKE '%My%' OR track_name LIKE '%my%';
+WHERE string_to_array(lower(track_name), ' ') && ARRAY['my', 'мой'];
