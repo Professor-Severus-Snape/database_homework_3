@@ -38,25 +38,22 @@ VALUES
 	('No Pressure', 2017),
 	('My World', 2020),
 	('The Ghost', 2018),
-	('Circles', 2020);
+	('Circles', 2020),
+	('Forest', 2016),
+	('Moscow Never Sleeps', 2019);
 
 INSERT INTO Singer_Album(singer_id, album_id)
 VALUES
 	(1, 1),
-	(1, 5),
-	(1, 8),
 	(2, 2),
-	(2, 4),
-	(3, 3),
-	(4, 4),
-	(4, 8),
-	(5, 5),
-	(5, 7),
-	(6, 1),
-	(6, 6),
-	(7, 7),
-	(8, 3),
-	(8, 6);
+	(2, 3),
+	(3, 4),
+	(4, 5),
+	(5, 6),
+	(6, 7),
+	(7, 8),
+	(7, 9),
+	(8, 10);
 
 INSERT INTO Tracks(album_id, track_name, duration)
 VALUES
